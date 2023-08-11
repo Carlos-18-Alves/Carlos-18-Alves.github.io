@@ -1,7 +1,7 @@
 /* Reset */
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
@@ -81,7 +81,7 @@ font-weight: bold;
 
 #social-container li a {
     color: var(--main-color);
-    font-size: 40px;
+    font-size: 30px;
 }
 
 #email-container {
@@ -89,6 +89,23 @@ font-weight: bold;
     justify-content: center;
 }
 
+#email-container ion-icon,
+#email-container a {
+  flex: 1 1 0;
+}
+
+#email-container a {
+  color: var(--main-text-color);
+  text-decoration: none;
+  max-width: 225px;
+}
+
+#email-container ion-icon {
+  color: var(--main-color);
+  font-size: 20px;
+  margin-right: 5px;
+  max-width: 20px;
+}
 /* About container */
 #name {
     font-size: 42px;
